@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.container {
+    margin: 0px;
+}
+
+#topnav {
+    margin: auto;
+    width: 950px;
+    height: 100px;
+    background-color: white;
+}
+
+#topnav h1 {
+
+    color: darkblue;
+    font-size: 50pt;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0.025em 0.025em 0 orange, 0.05em 0.05em 0 blue, 0.075em 0.075em red, 0.1em
+    0.1em 0 black;
+}
+
+#middlenav {
+    margin: auto;
+    width: 950px;
+    display: flex;
+    height: 28px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid black;
+}
+
+#middlenav p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11pt;
+}
+
+#bottomnav {
+    margin: auto;
+    width: 950px;
+    border-top: 4px solid black;
+    text-align: center;
+}
+
+
+
+#topBanner {
+    margin: auto;
+    width: 950px;
+    height: 325px;
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+#topLeft {
+    height: 325px;
+    width: 600px;
+    display: flex;
+    background-image: url(projects.jpg);
+    
+}
+
+#topleftR {
+    height: 325px;
+    width: 235px;
+    background-color: rgba(0, 0,0, 0.7);
+    text-align: center;
+    align-items: center;
+}
+
+
+
+#topleftR p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: 24pt;
+}
+
+#topleftR h2 {
+    font-size: 26pt;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+
+
+
+
+
+#topRight {
+    flex-direction: column;
+    height: 325;
+    width: 310px;
+    background-image: url(background4.jpg);
+}
+
+#toprightT img {
+    width: 195px;
+    border-radius: 50%;
+    margin-left: 57px;
+    margin-top: 20px;
+}
+
+#toprightB {
+    width: 310px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0,0, 0.4);
+    margin-top: 14px;
+}
+
+#toprightB h3 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-left: 104px;
+    text-decoration: underline;
+}
+
+#toprightB img {
+    height: 30px;
+    width: 30px;
+}
+
+
+#lowerBanner {
+    margin: auto;
+    width: 950px;
+    height: 280px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(background2.png);
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11pt;
+    color: white;
+}
+
+#cookiePolicy {
+    margin: auto;
+    width: 950px;
+    height: px;
+    background-color: darkmagenta;
+}
